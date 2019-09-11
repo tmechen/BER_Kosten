@@ -7,7 +7,7 @@ def setup_platform(hass, config, add_entities, discovery_info=None):
     add_entities([ExampleSensor()])
 
 
-class ExampleSensor(Entity):
+class BERStatus(Entity):
     """Representation of a Sensor."""
 
     def __init__(self):
@@ -17,7 +17,7 @@ class ExampleSensor(Entity):
     @property
     def name(self):
         """Return the name of the sensor."""
-        return 'BER Kosten'
+        return 'BER Status Sensor'
 
     @property
     def state(self):

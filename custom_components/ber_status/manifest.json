@@ -1,6 +1,6 @@
 {
-  "domain": "BER_Kosten",
-  "name": "BER Kosten",
+  "domain": "ber_status",
+  "name": "BER Status Sensor",
   "documentation": "https://github.com/home-assistant/example-custom-config/tree/master/custom_components/example_sensor/",
   "dependencies": [],
   "codeowners": [],
