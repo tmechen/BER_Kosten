@@ -1,5 +1,4 @@
 """Platform for sensor integration."""
-from homeassistant.const import TEMP_CELSIUS
 from homeassistant.helpers.entity import Entity
 
 
@@ -13,26 +12,14 @@ class ExampleSensor(Entity):
 
     def __init__(self):
         """Initialize the sensor."""
-        self._state = None
+        self._state = False
 
     @property
     def name(self):
         """Return the name of the sensor."""
-        return 'Example Temperature'
+        return 'BER Kosten'
 
     @property
     def state(self):
         """Return the state of the sensor."""
         return self._state
-
-    @property
-    def unit_of_measurement(self):
-        """Return the unit of measurement."""
-        return TEMP_CELSIUS
-
-    def update(self):
-        """Fetch new state data for the sensor.
-
-        This is the only method that should fetch new data for Home Assistant.
-        """
-        self._state = 23

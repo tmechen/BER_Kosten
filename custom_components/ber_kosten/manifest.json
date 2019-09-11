@@ -1,6 +1,6 @@
 {
-  "domain": "example_sensor",
-  "name": "Example Sensor",
+  "domain": "BER_Kosten",
+  "name": "BER Kosten",
   "documentation": "https://github.com/home-assistant/example-custom-config/tree/master/custom_components/example_sensor/",
   "dependencies": [],
   "codeowners": [],
