@@ -4,7 +4,7 @@ from homeassistant.helpers.entity import Entity
 
 def setup_platform(hass, config, add_entities, discovery_info=None):
     """Set up the sensor platform."""
-    add_entities([ExampleSensor()])
+    add_entities([BERStatus()])
 
 
 class BERStatus(Entity):
