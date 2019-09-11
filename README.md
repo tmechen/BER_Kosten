@@ -1,4 +1,4 @@
-# BER Kosten Sensor
+# BER Status Sensor
 
 Dieser Sensor liefert einen binären Wert ob der Flughafen BER bereits fertig gestellt wurde.
 
