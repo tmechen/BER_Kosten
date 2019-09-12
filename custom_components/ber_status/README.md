@@ -1,6 +1,5 @@
-# Example Sensor
-
-Dieser Sensor zeigt die aktuellen Kosten für den Flughafen BER ([Quelle](https://flughafen-berlin-kosten.de))
+# BER Status
+A binary sensor which tells you the current state of BER airport. Is it ready to use yet?
 
 ### Installation
 
