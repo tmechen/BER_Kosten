@@ -17,7 +17,7 @@ class BERStatus(Entity):
     @property
     def name(self):
         """Return the name of the sensor."""
-        return 'BER Status Sensor'
+        return 'BER Status'
 
     @property
     def state(self):
