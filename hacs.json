@@ -1,4 +1,5 @@
 {
     "name": "BER Status Sensor",
+    "country": "DE",
     "domains": ["sensor"]
   }
