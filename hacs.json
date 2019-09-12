@@ -1,0 +1,4 @@
+{
+    "name": "BER Status Sensor",
+    "domains": ["sensor"]
+  }
