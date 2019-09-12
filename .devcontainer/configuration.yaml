@@ -1,0 +1,4 @@
+default_config:
+
+sensor:
+  platform: ber_status
