@@ -1,7 +1,6 @@
 # BER Status Sensor
 
-Dieser Sensor liefert einen binären Wert ob der Flughafen BER bereits fertig gestellt wurde.
-
+A binary sensor which tells you the current state of BER airport. Is it ready to use yet?
 
 ### Installation
 
