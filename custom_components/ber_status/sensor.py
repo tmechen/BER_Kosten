@@ -12,7 +12,7 @@ class BERStatus(Entity):
 
     def __init__(self):
         """Initialize the sensor."""
-        self._state = False
+        self._state = True
 
     @property
     def name(self):
